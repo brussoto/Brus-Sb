@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Semana de Actividades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .semana {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .dia {
+            margin-bottom: 20px;
+        }
+
+        .dia h2 {
+            color: #007BFF;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mis Actividades de la Semana</h1>
+    <div class="semana">
+        <div class="dia">
+            <h2>Lunes</h2>
+            <ul>
+                <li>Hacer tarea de matemáticas</li>
+                <li>Estudiar para examen de inglés</li>
+            </ul>
+        </div>
+        <div class="dia">
+            <h2>Martes</h2>
+            <ul>
+                <li>Proyecto de ciencias</li>
+                <li>Reunión en grupo a las 4:00 p.m.</li>
+            </ul>
+        </div>
+        <div class="dia">
+            <h2>Miércoles</h2>
+            <ul>
+                <li>Leer capítulo 3 de Historia</li>
+                <li>Practicar presentación oral</li>
+            </ul>
+        </div>
+        <!-- Puedes seguir con Jueves, Viernes, etc. -->
+    </div>
+
+</body>
+</html>
